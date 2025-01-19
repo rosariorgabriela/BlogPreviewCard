@@ -20,6 +20,9 @@ body {
     width: 250px;
     border-radius: 10px;
     padding-left: 15px;
+    border-style: solid;
+    border-width: 1px 5px 5px 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .parent-container > * { /* remove default margin spacing on header and paragraph elements */
@@ -43,11 +46,19 @@ body {
     line-height: 1.6;
 }
 
-/*.img-container {
-    display: flex;
+.img-container {
+    width: 100%;
+    display: block;
     justify-content: center;
     align-items: center;
-} */
+}
+
+.header-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+}
 
 .author {
     display: inline-flex;
