@@ -3,6 +3,11 @@
     src: url(assets/fonts/static/Figtree-Medium.ttf);
 }
 
+@font-face {
+    font-family: FigtreeBold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
 body {
     font-family: Figtree;
     background-color: hsl(47, 88%, 63%);
@@ -38,6 +43,14 @@ body {
 
 .publishing-date {
     font-size: 12px;
+}
+
+.header-title {
+    color: hsl(0, 0%, 7%);
+}
+
+.header-title:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 .description {
@@ -78,4 +91,29 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+    .parent-container {
+        width: 70%;
+        padding: 15px;
+    }
+
+    .header-title {
+        font-family: FigtreeBold;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .parent-container {
+        width: 45%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .header-title {
+        font-family: FigtreeBold;
+    }
 }
