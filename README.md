@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/rosariorgabriela/BlogPreviewCard)
-- Live Site URL: [live site URL here]()
+- Live Site URL: [live site URL here]( https://rosariorgabriela.github.io/BlogPreviewCard/)
 
 ### Built with
 
